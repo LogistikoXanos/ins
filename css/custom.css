@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
- */
-
 /* header {
   padding: 154px 0 100px;
 }
@@ -46,4 +40,15 @@ section {
   color: #fff;
   text-align: center;
 }
-
+.partners{
+  justify-content: center;
+  padding-top: 1em;
+}
+.partners-ribbon{
+  padding: 0px 0!important  ;
+}
+.ela{
+ height: 7em;
+ min-height: 100px;
+ margin-bottom: 2em;
+}
