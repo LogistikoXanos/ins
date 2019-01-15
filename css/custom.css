@@ -81,14 +81,15 @@ section {
   background-color: #343a40;
   margin-bottom: -10em;
 }
-
 .private {
   background-image: url('../resources/Accounting/idiotis.jpg');
+  min-width: fit-content;
   height: 527px;
 }
 
 .business {
   background-image: url('../resources/Accounting/epixeirisi.jpg');
+  min-width: fit-content;
   height: 527px;
 }
 
