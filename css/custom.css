@@ -12,14 +12,17 @@
 section {
   padding: 150px 0;
 }
-.section-container{
+
+.section-container {
   margin-bottom: -4em;
 }
-.section-title{
+
+.section-title {
   text-align: center;
   margin-top: -3em;
 }
-.section-description{
+
+.section-description {
   margin-bottom: 4em;
 }
 
@@ -29,6 +32,7 @@ section {
   background-color: #00000000;
   border-color: #343a40;
 }
+
 .btn-primary:hover {
   color: white;
   background-color: #343a40;
@@ -72,108 +76,85 @@ section {
 /* ////// WHY US SECTION //////  */
 
 /* ////// ACCOUNTING SECTION //////  */
+#accounting {
+  color: white;
+  background-color: #343a40;
+  margin-bottom: -10em;
+}
 
-.accounting1 {
-  width: 530px;
-  height: 467px;
-  position: relative;
-  border-radius: 3px;
-  padding: 12px;
-  box-sizing: padding-box;
-  position: relative;
-  border-right: 1px solid #343a40;
-  border-bottom: 1px solid #343a40;
-  border-left: 1px solid #343a40;
+.private {
+  background-image: url('../resources/Accounting/idiotis.jpg');
+  height: 527px;
 }
-.accounting2 {
-  width: 530px;
-  height: 467px;
-  position: relative;
-  border-radius: 3px;
-  padding: 12px;
-  box-sizing: padding-box;
-  position: relative;
-  border-right: 1px solid #343a40;
-  border-bottom: 1px solid #343a40;
-  border-left: 1px solid #343a40;
-}
-.accounting-top {
-  cursor: move;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-  
-.accounting-top:before {
-    border-radius: 3px 0 0 0;
-    display: block;
-    content: "";
-    flex: 4 0 0;
-    height: 1px;
-    border-top: 1px solid #343a40;
-  }
-  .accounting-top:after {
-    border-radius: 0 3px 0 0;
-    display: block;
-    content: "";
-    flex: 4 0 0;
-    height: 1px;
-    border-top: 1px solid #343a40;
-  }
 
+.business {
+  background-image: url('../resources/Accounting/epixeirisi.jpg');
+  height: 527px;
+}
 
-.accounting-top-title {
-  height: 26px;
-  color: #343a40;
-  font: 12px;
-  font-weight: bold;
- 
-  flex: 0 0 150px;
-  margin-top: -14px;
-  text-align: center;
-}
-.accounting-img {
-  width: 100px;
-  height: 100px;
-  align-self: center;
-  margin-top: 2em;
-  margin-bottom: 1em;
-}
-.accounting-description {
-  height: 100%;
-  width: 100%;
+.accounting {
   display: flex;
   flex-direction: column;
 }
-.accounting-list{
+
+.accounting-title {
+  margin-top: 1em;
+  text-align: center;
+  color: white;
+}
+
+.accounting-img {
+  width: 100px;
+  height: 100px;
+  margin-top: 1em;
+  margin-bottom: 1em;
   align-self: center;
 }
-.priv-button{
+
+.accounting-list {
+  align-self: center;
+  color: white;
+}
+
+.priv-button {
   margin-top: 3em;
+  margin-bottom: 2em;
+}
+.accounting-button {
+  color: white;
+  background-color: #00000000;
+  border-color: white;
+}
+
+.accounting-button:hover {
+  color: #343a40;
+  background-color: white;
+  border-color: white;
 }
 
 
 /* ////// INSURANCE SECTION //////  */
-#insurance{
+#insurance {
   background-color: #cfd7c7;
 }
-.ins-transition{
-  transition: width 2s, height 2s, background-color 2s, transform 2s; 
+
+.ins-transition {
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
   transition: transform 1s;
 }
-.ins-transition:hover{
+
+.ins-transition:hover {
   -webkit-transform: scale(1.09);
   -ms-transform: scale(1.09);
   transform: scale(1.09);
 }
+
 .ins-link {
   display: flex;
   justify-content: center;
   margin-bottom: 2em;
 }
+
 .ins-circle {
   display: flex;
   justify-content: center;
@@ -183,39 +164,48 @@ section {
   border-radius: 100px;
   background-color: #343a40;
 }
+
 .ins-img {
   align-self: center;
   width: 100px;
   height: 100px;
 }
+
 .ins-text {
   text-align: center;
 }
-.car-button{
+
+.car-button {
   margin-top: 3em;
 }
-.fire-button{
+
+.fire-button {
   margin-top: 3em;
 }
-.savings-button{
+
+.savings-button {
   margin-top: 1.5em;
 }
 
 /* ////// CONTACT US SECTION //////  */
-#contact{
+#contact {
   background-color: #70c3be;
 }
-#contact a{
+
+#contact a {
   color: #fff;
   text-decoration: none;
 }
-.maps iframe{
+
+.maps iframe {
   width: 530px;
   height: 816px;
 }
-.forma{
+
+.forma {
   margin-top: -0.5em;
 }
+
 /* ////// PARTNERS SECTION //////  */
 .partners {
   justify-content: center;
