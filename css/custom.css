@@ -72,9 +72,10 @@ section {
 /* ////// WHY US SECTION //////  */
 
 /* ////// ACCOUNTING SECTION //////  */
-.accounting {
+
+.accounting1 {
   width: 530px;
-  height: fit-content;
+  height: 467px;
   position: relative;
   border-radius: 3px;
   padding: 12px;
@@ -84,7 +85,18 @@ section {
   border-bottom: 1px solid #343a40;
   border-left: 1px solid #343a40;
 }
-
+.accounting2 {
+  width: 530px;
+  height: 467px;
+  position: relative;
+  border-radius: 3px;
+  padding: 12px;
+  box-sizing: padding-box;
+  position: relative;
+  border-right: 1px solid #343a40;
+  border-bottom: 1px solid #343a40;
+  border-left: 1px solid #343a40;
+}
 .accounting-top {
   cursor: move;
   display: flex;
@@ -136,6 +148,12 @@ section {
   display: flex;
   flex-direction: column;
 }
+.accounting-list{
+  align-self: center;
+}
+.priv-button{
+  margin-top: 3em;
+}
 
 
 /* ////// INSURANCE SECTION //////  */
@@ -156,7 +174,6 @@ section {
   justify-content: center;
   margin-bottom: 2em;
 }
-
 .ins-circle {
   display: flex;
   justify-content: center;
@@ -166,15 +183,22 @@ section {
   border-radius: 100px;
   background-color: #343a40;
 }
-
 .ins-img {
   align-self: center;
   width: 100px;
   height: 100px;
 }
-
 .ins-text {
   text-align: center;
+}
+.car-button{
+  margin-top: 3em;
+}
+.fire-button{
+  margin-top: 3em;
+}
+.savings-button{
+  margin-top: 1.5em;
 }
 
 /* ////// CONTACT US SECTION //////  */
