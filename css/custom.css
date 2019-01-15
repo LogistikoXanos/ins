@@ -11,6 +11,16 @@
 section {
   padding: 150px 0;
 }
+.section-container{
+  margin-bottom: -4em;
+}
+.section-title{
+  text-align: center;
+  margin-top: -3em;
+}
+.section-description{
+  margin-bottom: 4em;
+}
 
 .carousel-item {
   height: 80vh;
@@ -21,14 +31,18 @@ section {
   -o-background-size: cover;
   background-size: cover;
   margin-top: 2em;
-  }
-.carousel-item,.carousel-item.active{
+}
+
+.carousel-item,
+.carousel-item.active {
   height: 90hv;
 }
-.carousel-caption.d-none.d-md-block{
+
+.carousel-caption.d-none.d-md-block {
   background-color: rgba(0, 0, 0, .8);
   width: 100%;
 }
+
 .carousel-caption {
   position: absolute;
   right: 0%;
@@ -40,15 +54,57 @@ section {
   color: #fff;
   text-align: center;
 }
-.partners{
+
+.partners {
   justify-content: center;
   padding-top: 1em;
 }
-.partners-ribbon{
-  padding: 0px 0!important  ;
+
+.partners-ribbon {
+  padding: 0px 0 !important;
 }
-.rib-item{
- height: 7em;
- min-height: 100px;
- margin-bottom: 2em;
+
+.rib-item {
+  height: 7em;
+  min-height: 100px;
+  margin-bottom: 2em;
+}
+
+/* INSURANCE */
+#insurance{
+  background-color: #cfd7c7;
+}
+.ins-transition{
+  transition: width 2s, height 2s, background-color 2s, transform 2s; 
+  transition: transform 1s;
+}
+.ins-transition:hover{
+  -webkit-transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  transform: scale(1.09);
+}
+.ins-link {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.ins-circle {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #343a40;
+  border-radius: 100px;
+  background-color: #343a40;
+}
+
+.ins-img {
+  align-self: center;
+  width: 100px;
+  height: 100px;
+}
+
+.ins-text {
+  text-align: center;
 }
