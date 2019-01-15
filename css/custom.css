@@ -23,6 +23,18 @@ section {
   margin-bottom: 4em;
 }
 
+/* ////// BUTTONS //////  */
+.btn-primary {
+  color: #343a40;
+  background-color: #00000000;
+  border-color: #343a40;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
 /* ////// CAROUSEL SECTION //////  */
 .carousel-item {
   height: 80vh;
@@ -60,6 +72,71 @@ section {
 /* ////// WHY US SECTION //////  */
 
 /* ////// ACCOUNTING SECTION //////  */
+.accounting {
+  width: 530px;
+  height: fit-content;
+  position: relative;
+  border-radius: 3px;
+  padding: 12px;
+  box-sizing: padding-box;
+  position: relative;
+  border-right: 1px solid #343a40;
+  border-bottom: 1px solid #343a40;
+  border-left: 1px solid #343a40;
+}
+
+.accounting-top {
+  cursor: move;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+  
+.accounting-top:before {
+    border-radius: 3px 0 0 0;
+    display: block;
+    content: "";
+    flex: 4 0 0;
+    height: 1px;
+    border-top: 1px solid #343a40;
+  }
+  .accounting-top:after {
+    border-radius: 0 3px 0 0;
+    display: block;
+    content: "";
+    flex: 4 0 0;
+    height: 1px;
+    border-top: 1px solid #343a40;
+  }
+
+
+.accounting-top-title {
+  height: 26px;
+  color: #343a40;
+  font: 12px;
+  font-weight: bold;
+ 
+  flex: 0 0 150px;
+  margin-top: -14px;
+  text-align: center;
+}
+.accounting-img {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.accounting-description {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 
 /* ////// INSURANCE SECTION //////  */
 #insurance{
