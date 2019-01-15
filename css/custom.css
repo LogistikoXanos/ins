@@ -8,6 +8,7 @@
   }
 } */
 
+/* ////// SECTION //////  */
 section {
   padding: 150px 0;
 }
@@ -22,6 +23,7 @@ section {
   margin-bottom: 4em;
 }
 
+/* ////// CAROUSEL SECTION //////  */
 .carousel-item {
   height: 80vh;
   min-height: 300px;
@@ -55,22 +57,11 @@ section {
   text-align: center;
 }
 
-.partners {
-  justify-content: center;
-  padding-top: 1em;
-}
+/* ////// WHY US SECTION //////  */
 
-.partners-ribbon {
-  padding: 0px 0 !important;
-}
+/* ////// ACCOUNTING SECTION //////  */
 
-.rib-item {
-  height: 7em;
-  min-height: 100px;
-  margin-bottom: 2em;
-}
-
-/* INSURANCE */
+/* ////// INSURANCE SECTION //////  */
 #insurance{
   background-color: #cfd7c7;
 }
@@ -107,4 +98,22 @@ section {
 
 .ins-text {
   text-align: center;
+}
+
+/* ////// CONTACT US SECTION //////  */
+
+/* ////// PARTNERS SECTION //////  */
+.partners {
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.partners-ribbon {
+  padding: 0px 0 !important;
+}
+
+.rib-item {
+  height: 7em;
+  min-height: 100px;
+  margin-bottom: 2em;
 }
