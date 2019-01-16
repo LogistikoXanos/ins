@@ -74,7 +74,9 @@ section {
 }
 
 /* ////// WHY US SECTION //////  */
-
+.wu-text{
+  margin-bottom: 0em;
+}
 /* ////// ACCOUNTING SECTION //////  */
 #accounting {
   color: white;
