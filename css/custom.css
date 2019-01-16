@@ -190,6 +190,11 @@ section {
   margin-top: 1.5em;
 }
 
+/* ////// ASK OFFER SECTION //////  */
+.askoffer{
+  color: red!important;
+}
+
 /* ////// CONTACT US SECTION //////  */
 #contact {
   background-color: #70c3be;
