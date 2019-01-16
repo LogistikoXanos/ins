@@ -85,12 +85,14 @@ section {
   background-image: url('../resources/Accounting/idiotis.jpg');
   min-width: fit-content;
   height: 527px;
+  margin-top: 2em;
 }
 
 .business {
   background-image: url('../resources/Accounting/epixeirisi.jpg');
   min-width: fit-content;
   height: 527px;
+  margin-top: 2em;
 }
 
 .accounting {
@@ -220,5 +222,5 @@ section {
 .rib-item {
   height: 7em;
   min-height: 100px;
-  margin-bottom: 2em;
+  margin-bottom: -24em;
 }
