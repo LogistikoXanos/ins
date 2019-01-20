@@ -88,6 +88,9 @@ section {
   min-width: fit-content;
   height: 527px;
   margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .business {
@@ -95,15 +98,19 @@ section {
   min-width: fit-content;
   height: 527px;
   margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .accounting {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .accounting-title {
-  margin-top: 1em;
   text-align: center;
   color: white;
 }
@@ -112,20 +119,17 @@ section {
   width: 100px;
   height: 100px;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   align-self: center;
 }
 
-.accounting-list {
+/* .accounting-list {
   align-self: center;
   color: white;
-}
+} */
 
-.priv-button {
-  margin-top: 3em;
-  margin-bottom: 2em;
-}
 .accounting-button {
+  margin-top: 1em;
   color: white;
   background-color: #00000000;
   border-color: white;
@@ -190,11 +194,6 @@ section {
 
 .savings-button {
   margin-top: 1.5em;
-}
-
-/* ////// ASK OFFER SECTION //////  */
-.askoffer{
-  color: red!important;
 }
 
 /* ////// CONTACT US SECTION //////  */
