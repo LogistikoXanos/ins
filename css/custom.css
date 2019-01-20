@@ -146,7 +146,9 @@ section {
 #insurance {
   background-color: #cfd7c7;
 }
-
+.askoffer{
+  color: red!important;
+}
 .ins-transition {
   transition: width 2s, height 2s, background-color 2s, transform 2s;
   transition: transform 1s;
