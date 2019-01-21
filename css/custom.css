@@ -85,6 +85,7 @@ section {
 }
 .private {
   background-image: url('../resources/Accounting/idiotis.jpg');
+  background-repeat:round;
   min-width: fit-content;
   height: 527px;
   margin-top: 2em;
@@ -95,6 +96,7 @@ section {
 
 .business {
   background-image: url('../resources/Accounting/epixeirisi.jpg');
+  background-repeat:round;
   min-width: fit-content;
   height: 527px;
   margin-top: 2em;
@@ -122,11 +124,6 @@ section {
   margin-bottom: 2em;
   align-self: center;
 }
-
-/* .accounting-list {
-  align-self: center;
-  color: white;
-} */
 
 .accounting-button {
   margin-top: 1em;
