@@ -255,6 +255,109 @@ footer p {
   padding-bottom:20px;
   margin-bottom: 1em;
 }
+/* ////// ACCOUNTING DETAILS SECTION //////  */
+
+/* ////// ACCOUNTING PRIVATE //////  */
+#accounting-private-details {
+  margin-top: 4em;
+}
+.accounting-private-details-title{
+  font-size: 20px;
+  margin-top: 3em;
+  margin-bottom: 1rem;
+}
+.accounting-private-details-list{
+  margin-left: 6em;
+}
+.accounting-private-item{
+  border: 1px solid #343a40;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+.accounting-private-item-logo{
+  width: 50px;
+  height: 50px;
+  margin-top: 6em;
+  margin-bottom: .5em;
+}
+.accounting-private-item-logo-fix{
+  width: 50px;
+  height: 50px;
+  margin-top: 6em;
+  margin-bottom: .3em;
+}
+.accounting-private-item-title{
+  margin-bottom: 5em;
+}
+.accounting-private-item-title-fix1{
+  margin-top: .3em;
+}
+.accounting-private-item-title-fix2{
+  margin-bottom: 4em;
+}
+.accounting-private-row-1{
+  margin-bottom: -5em;
+}
+.accounting-private-row-2{
+  margin-bottom: -9.4em;
+}
+.accounting-private-backphoto{
+  background-image: url(../resources/Accounting/backphoto.jpg);
+  height: 400px;
+}
+
+/* ////// ACCOUNTING BUSINESS //////  */
+#accounting-bussiness-details {
+  margin-top: 4em;
+}
+.accounting-bussiness-details-title{
+  font-size: 20px;
+  margin-top: 3em;
+  margin-bottom: 1rem;
+}
+.accounting-bussiness-details-list{
+  margin-left: 6em;
+}
+.accounting-bussiness-col{
+  padding-right: 0em;
+  padding-left: 0em;
+}
+.accounting-bussiness-item{
+  border: 1px solid #343a40;
+  height: 376px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+.accounting-bussiness-item-logo{
+  width: 50px;
+  height: 50px;
+  margin-top: 6em;
+  margin-bottom: .5em;
+}
+
+.accounting-bussiness-row-1{
+  margin-bottom: -5em;
+}
+.accounting-bussiness-row-2{
+  margin-bottom: -5em;
+}
+.accounting-bussiness-row-3{
+  margin-bottom: -9.4em;
+}
+.accounting-bussiness-backphoto{
+  background-image: url(../resources/Accounting/backphoto.jpg);
+  height: 400px;
+ 
+}
+
+
+
 
 /* ////// INSURANCE VEHICLE, HEALTH, FIRE, SAVINGS SECTION //////  */
 #insurance-askoffer {
