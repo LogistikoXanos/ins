@@ -210,9 +210,9 @@ section {
   height: 816px;
 }
 
-.forma {
+/* .forma {
   margin-top: -0.5em;
-}
+} */
 
 /* ////// PARTNERS SECTION //////  */
 .partners {
@@ -254,6 +254,45 @@ footer p {
   border-bottom:1px solid #323f45; 
   padding-bottom:20px;
   margin-bottom: 1em;
+}
+
+/* ////// INSURANCE VEHICLE SECTION //////  */
+#insurance-askoffer {
+  margin-top: 4em;
+}
+.whyto-title{
+  font-size: 20px;
+  margin-top: 3em;
+  margin-left: 4em;
+  margin-bottom: 1rem;
+}
+.whyto-list{
+  margin-left: 6em;
+}
+.askoffer-title{
+  font-size: 1.25rem;
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+.gform{
+  display: flex;
+  justify-content: center;
+}
+.offer-form-vehicle{
+  width: 800px;
+  height: 3365px;
+}
+.offer-form-health{
+  width: 800px;
+  height: 1430px;
+}
+.offer-form-fire{
+  width: 800px;
+  height: 1388px;
+}
+.offer-form-savings{
+  width: 800px;
+  height: 1587px;
 }
 
 /* ////// MEDIA QUERIES //////  */
