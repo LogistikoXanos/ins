@@ -256,4 +256,24 @@ footer p {
   margin-bottom: 1em;
 }
 
+/* ////// MEDIA QUERIES //////  */
 
+/* ////// BIG SCREEN //////  */
+@media screen and (min-width: 1400px) {
+  .rib-item {
+    height: 7em;
+    min-height: 100px;
+    margin-bottom: -36em;
+  }
+  .logo{
+    margin-left: -4em;
+  }
+  .navbar-collapse{
+    font-size: 18px;
+    margin-right: -6em;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+}
