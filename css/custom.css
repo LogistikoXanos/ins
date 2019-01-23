@@ -206,12 +206,12 @@ section {
 }
 
 .maps iframe {
-  width: 530px;
-  height: 816px;
+  width: 100%;
+  height: 330px;
 }
 
 /* .forma {
-  margin-top: -0.5em;
+  
 } */
 
 /* ////// PARTNERS SECTION //////  */
@@ -270,33 +270,25 @@ footer p {
   margin-left: 6em;
 }
 .accounting-private-item{
-  border: 1px solid #343a40;
+  border: .5px solid #e8e8e8;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 5em;
+  height: 250px;
 }
 .accounting-private-item-logo{
   width: 50px;
   height: 50px;
-  margin-top: 6em;
-  margin-bottom: .5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .accounting-private-item-logo-fix{
   width: 50px;
   height: 50px;
-  margin-top: 6em;
-  margin-bottom: .3em;
-}
-.accounting-private-item-title{
-  margin-bottom: 5em;
-}
-.accounting-private-item-title-fix1{
-  margin-top: .3em;
-}
-.accounting-private-item-title-fix2{
-  margin-bottom: 4em;
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
 .accounting-private-row-1{
   margin-bottom: -5em;
@@ -326,7 +318,7 @@ footer p {
   padding-left: 0em;
 }
 .accounting-bussiness-item{
-  border: 1px solid #343a40;
+  border: .5px solid #e8e8e8;
   height: 376px;
   display: flex;
   flex-direction: column;
