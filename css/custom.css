@@ -398,10 +398,13 @@ footer p {
 
 /* ////// BIG SCREEN //////  */
 @media screen and (min-width: 1400px) {
+  .partners-ribbon{
+    width: 100%;
+  }
   .rib-item {
     height: 7em;
     min-height: 100px;
-    margin-bottom: -36em;
+    /* margin-bottom: -36em; */
   }
   .logo{
     margin-left: -4em;
