@@ -378,19 +378,19 @@ footer p {
   justify-content: center;
 }
 .offer-form-vehicle{
-  width: 800px;
+  width: 100%;
   height: 3365px;
 }
 .offer-form-health{
-  width: 800px;
+  width: 100%;
   height: 1430px;
 }
 .offer-form-fire{
-  width: 800px;
+  width: 100%;
   height: 1388px;
 }
 .offer-form-savings{
-  width: 800px;
+  width: 100%;
   height: 1587px;
 }
 
