@@ -400,6 +400,7 @@ footer p {
 @media screen and (min-width: 1400px) {
   .partners-ribbon{
     width: 100%;
+    height: auto;
   }
   .rib-item {
     height: 7em;
