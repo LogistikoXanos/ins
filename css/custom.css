@@ -74,6 +74,9 @@ section {
 }
 
 /* ////// WHY US SECTION //////  */
+#whyus{
+  background-color: #cfd7c7;
+}
 .wu-text{
   margin-bottom: 0em;
 }
@@ -199,7 +202,7 @@ section {
 
 /* ////// CONTACT US SECTION //////  */
 #contact {
-  background-color: #70c3be;
+  background-color: #343a40;
 }
 
 #contact a {
