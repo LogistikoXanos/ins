@@ -39,6 +39,14 @@ section {
   border-color: #343a40;
 }
 
+.logo{
+  width: 150px;
+}
+
+.logo-footer{
+  width: 200px;
+}
+
 /* ////// CAROUSEL SECTION //////  */
 .carousel-item {
   height: 85vh;
