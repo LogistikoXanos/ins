@@ -1342,7 +1342,12 @@ footer p {
 
 }
 
-@media only screen and (min-width: 731px) and (orientation: landscape) { 
+/* ////////// Pixel 2 ///////// */
+/* Landscape */
+@media only screen 
+and (device-width: 731px)
+and (device-height: 411px)  
+and (orientation: landscape) { 
   .lead{
     font-size: 1rem;
   }
