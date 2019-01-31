@@ -1,13 +1,3 @@
-/* header {
-  padding: 154px 0 100px;
-}
-
-@media (min-width: 992px) {
-  header {
-    padding: 156px 0 100px;
-  }
-} */
-
 /* ////// SECTION //////  */
 section {
   padding: 150px 0;
@@ -48,9 +38,8 @@ section {
 }
 
 /* ////// CAROUSEL SECTION //////  */
-.carousel-item {
-  height: 85vh;
-  min-height: 300px;
+.d-block.w-100{
+  width: 100%;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -58,11 +47,6 @@ section {
   background-size: cover;
   margin-top: 6em;
 }
-
-/* .carousel-item,
-.carousel-item.active {
-  height: 85vh;
-} */
 
 .carousel-caption.d-none.d-md-block {
   background-color: rgba(0, 0, 0, .8);
@@ -318,7 +302,7 @@ footer p {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  margin-top: 5em;
+  margin-top: 6em;
 }
 
 /* ////// ACCOUNTING BUSINESS //////  */
@@ -370,7 +354,7 @@ footer p {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  margin-top: 5em;
+  margin-top: 6em;
 }
 
 
@@ -420,7 +404,7 @@ footer p {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  margin-top: 5em;
+  margin-top: 6em;
 }
 .insurance-health-backphoto {
   background-image: url(../resources/Insurance/insurance-health.jpg);
@@ -428,7 +412,7 @@ footer p {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  margin-top: 5em;
+  margin-top: 6em;
 }
 .insurance-fire-backphoto {
   background-image: url(../resources/Insurance/insurance-fire.jpg);
@@ -436,7 +420,7 @@ footer p {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  margin-top: 5em;
+  margin-top: 6em;
 }
 .insurance-savings-backphoto{
   background-image: url(../resources/Insurance/insurance-savings.jpg);
@@ -444,7 +428,7 @@ footer p {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  margin-top: 5em;
+  margin-top: 6em;
 }
 
 /* ////// MEDIA QUERIES //////  */
@@ -488,15 +472,15 @@ footer p {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1.5) {
     .car-button {
-      margin-top: 1.5em;
+      margin-top: 1.5em!important;
     }
     
     .fire-button {
-      margin-top: 1.5em;
+      margin-top: 1.5em!important;
     }
 
     .savings-button {
-      margin-top: 0em;
+      margin-top: 0em!important;
     }
     
     .accounting-private-row-1 {
