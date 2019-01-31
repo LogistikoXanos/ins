@@ -297,11 +297,10 @@ footer p {
   width: 100%;
 }
 .accounting-private-backphoto{
-  background-image: url(../resources/Accounting/backphoto.jpg);
+  /* background-image: url(../resources/Accounting/backphoto.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
   margin-top: 6em;
 }
 
@@ -349,11 +348,10 @@ footer p {
   width: 100%;
 }
 .accounting-bussiness-backphoto{
-  background-image: url(../resources/Accounting/backphoto2.jpg);
+  /* background-image: url(../resources/Accounting/backphoto2.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
   margin-top: 6em;
 }
 
@@ -399,35 +397,31 @@ footer p {
   height: 1587px;
 }
 .insurance-vehicle-backphoto {
-  background-image: url(../resources/Insurance/insurance-car.jpg);
+  /* background-image: url(../resources/Insurance/insurance-car.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
   margin-top: 6em;
 }
 .insurance-health-backphoto {
-  background-image: url(../resources/Insurance/insurance-health.jpg);
+  /* background-image: url(../resources/Insurance/insurance-health.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
   margin-top: 6em;
 }
 .insurance-fire-backphoto {
-  background-image: url(../resources/Insurance/insurance-fire.jpg);
+  /* background-image: url(../resources/Insurance/insurance-fire.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
   margin-top: 6em;
 }
 .insurance-savings-backphoto{
-  background-image: url(../resources/Insurance/insurance-savings.jpg);
+  /* background-image: url(../resources/Insurance/insurance-savings.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
   margin-top: 6em;
 }
 
