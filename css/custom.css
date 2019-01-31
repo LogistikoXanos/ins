@@ -49,23 +49,6 @@ section {
   background-color: #343a40!important; 
 }
 
-.carousel-caption.d-none.d-md-block {
-  background-color: rgba(0, 0, 0, .8);
-  width: 100%;
-}
-
-.carousel-caption {
-  position: absolute;
-  right: 0%;
-  bottom: 20px;
-  left: 0%;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: center;
-}
-
 /* ////// WHY US SECTION //////  */
 #whyus{
   background-color: #cfd7c7;
