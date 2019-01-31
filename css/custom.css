@@ -46,6 +46,7 @@ section {
   -o-background-size: cover;
   background-size: cover;
   margin-top: 6em;
+  background-color: #343a40!important; 
 }
 
 .carousel-caption.d-none.d-md-block {
