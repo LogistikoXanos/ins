@@ -36,6 +36,9 @@ section {
 .logo-footer{
   width: 200px;
 }
+.page-404-number{
+  font-size: 6rem;
+}
 
 /* ////// CAROUSEL SECTION //////  */
 .d-block.w-100{
