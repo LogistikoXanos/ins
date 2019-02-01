@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://teosairus.github.io/ins/sitemap.xml
