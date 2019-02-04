@@ -28,7 +28,9 @@ section {
   background-color: #343a40;
   border-color: #343a40;
 }
-
+.main-title{
+  font-size: 2rem;
+}
 .logo{
   width: 150px;
 }
