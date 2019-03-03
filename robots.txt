@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://teosairus.github.io/ins/sitemap.xml
+Sitemap: https://xanos.gr/sitemap.xml
